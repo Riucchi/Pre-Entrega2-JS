@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    user-select: none;
 }
 
 .calculadora {
     width: 300px;
+    background-color: #335d;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -32,7 +34,7 @@ body {
 button {
     width: 60px;
     height: 40px;
-    margin: 5px;
+    margin: 10px;
     font-size: 18px;
     border: none;
     border-radius: 10px;
